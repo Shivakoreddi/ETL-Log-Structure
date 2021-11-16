@@ -18,6 +18,6 @@ def main():
     transformation()
     load()
     end = time.time()-start
-    print("no threads took : {} seconds".format(end))
+
 if __name__=="__main__":
     main()

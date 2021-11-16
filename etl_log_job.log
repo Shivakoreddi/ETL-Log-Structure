@@ -1,0 +1,39 @@
+INFO:  2021-11-15 17:26:14,799:  54624:  <module>:  ETL Process Initialized
+INFO:  2021-11-15 17:26:14,799:  54624:  extract:  Start Extract Session
+INFO:  2021-11-15 17:26:14,800:  54624:  extract:  Source Filename: customer_file.csv
+INFO:  2021-11-15 17:26:14,805:  54624:  extract:  Records count in source file: 5
+INFO:  2021-11-15 17:26:14,806:  54624:  extract:  Read completed!!
+INFO:  2021-11-15 17:26:14,806:  54624:  main:  Extract CPU usage 83.5%
+INFO:  2021-11-15 17:26:14,806:  54624:  main:  Extract function took : 0.006990194320678711 seconds
+INFO:  2021-11-15 17:26:14,807:  54624:  transformation:  Start Transformation Session
+INFO:  2021-11-15 17:26:14,825:  54624:  transformation:  Transformation completed, data ready to load!
+INFO:  2021-11-15 17:26:14,826:  54624:  main:  Transform CPU usage 100.0%
+INFO:  2021-11-15 17:26:14,826:  54624:  main:  Transformation took : 0.018990278244018555 seconds
+INFO:  2021-11-15 17:26:14,826:  54624:  load:  Start Load Session
+INFO:  2021-11-15 17:26:14,828:  54624:  load:  Connection to Customers.db database established
+INFO:  2021-11-15 17:26:14,834:  54624:  load:  Data Loaded into target table: customer
+INFO:  2021-11-15 17:26:14,852:  54624:  load:  Load Completed
+INFO:  2021-11-15 17:26:14,853:  54624:  main:  Load CPU usage 100.0%
+INFO:  2021-11-15 17:26:14,854:  54624:  main:  Load took : 0.02698373794555664 seconds
+INFO:  2021-11-15 17:26:14,854:  54624:  main:  ETL Job took : 0.054962873458862305 seconds
+INFO:  2021-11-15 17:26:14,854:  54624:  main:  Session Summary
+INFO:  2021-11-15 17:26:14,855:  54624:  main:  RAM memory 89.4% used:
+INFO:  2021-11-15 17:26:14,855:  54624:  main:  CPU usage 0.0%
+INFO:  2021-11-15 18:55:06,232:  47848:  <module>:  ETL Process Initialized
+INFO:  2021-11-15 18:55:06,232:  47848:  extract:  Start Extract Session
+INFO:  2021-11-15 18:55:06,232:  47848:  extract:  Source Filename: customer_file.csv
+INFO:  2021-11-15 18:55:06,244:  47848:  extract:  Records count in source file: 5
+INFO:  2021-11-15 18:55:06,244:  47848:  extract:  Read completed!!
+INFO:  2021-11-15 18:55:06,245:  47848:  main:  Extract CPU usage 25.3%
+INFO:  2021-11-15 18:55:06,245:  47848:  main:  Extract function took : 0.011172771453857422 seconds
+INFO:  2021-11-15 18:55:06,265:  47848:  transformation:  Transformation completed, data ready to load!
+INFO:  2021-11-15 18:55:06,266:  47848:  main:  Transform CPU usage 0.0%
+INFO:  2021-11-15 18:55:06,266:  47848:  main:  Transformation took : 0.021472692489624023 seconds
+INFO:  2021-11-15 18:55:06,266:  47848:  load:  Start Load Session
+ERROR:  2021-11-15 18:55:06,271:  47848:  load:  'TgtConnection1'
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  Load CPU usage 0.0%
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  Load took : 0.006098270416259766 seconds
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  ETL Job took : 0.03974604606628418 seconds
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  Session Summary
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  RAM memory 88.2% used:
+INFO:  2021-11-15 18:55:06,272:  47848:  main:  CPU usage 0.0%
